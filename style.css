@@ -1,0 +1,116 @@
+
+html,body {
+   background-image: url("bg5.jpg");
+   background-size: 100% 67%;
+   font-family: Arial, Helvetica, sans-serif;
+   color:black;
+
+}
+
+.site-header,
+.site-header ul,
+.site-header ul li a {
+    background-color: transparent;
+}
+
+
+.mid-text {
+    background-color:background-color: rgba(0,0,0, 0.4);
+    text-shadow:2px 2px 4px purple;
+    font-size:80px;
+    font-weight: bold;
+    border: 6px solid #f1f1f1;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+	padding:10px;
+}
+
+.page-wrapper {
+    height: 800px;
+}
+
+/*footer */
+.footer {
+    background: #303030;
+    color: #d3d3d3;
+    height: 400px;
+    position: relative;
+}
+.footer .footer-content{
+
+    height: 350px;
+    display: flex;
+}
+.footer .footer-content .footer-section{
+flex: 1;
+padding: 25px;
+
+}
+.footer .footer-content h1,
+.footer .footer-content h2{
+    color: white;
+}
+.footer .footer-content .about h1 span{
+    color: tomato;
+}
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+.footer .footer-content .about .socials{
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top:5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+    color: white;
+    text-decoration: none;
+}
+.footer .footer-content .links ul a:hover{
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+}
+.footer .footer-content .contact-form .contact-input{
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .7rem 1.2rem;
+    border: none;
+}
+.btn{
+    padding: .5rem 1rem;
+    background: #006669;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+
+}
+.btn.big{
+    padding:.7rem 1.3rem;
+    line-height: 1.3rem;
+}
+.footer .footer-bottom{
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+
+}

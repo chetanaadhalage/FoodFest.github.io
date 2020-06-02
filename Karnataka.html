@@ -1,0 +1,103 @@
+<!DOCTYPE=html>
+<html language="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+    .heading {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: brown;
+    }
+
+    .text{
+        text-align: center;
+        font-size: 25px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		color: rgb(60,60,60)
+    }
+
+    .title{
+        text-align: center;
+		text-decoration: underline;
+    }
+
+    .food-images {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.gallery {
+        margin: 50px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 300px;
+        height: fit-content;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+</style>
+
+<link href='header.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="site-header">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </header>
+    <main class="content">
+
+        <div class="heading">
+            <h3>Karnataka (Famous Indian classical music in world, Arts and historical places)</h3>
+        </div>
+        <br><br>
+        <div class="text">
+            <p>Karnataka is known for its wide variety of dosas and sambar. The food is rich in flavour and consists of various vegetarian and non-vegetarian dishes. However, a typical Kannadiga Oota (meal) consists of rice, sambar, pickle, ghee, dessert, and other curry-based dishes and is served on a banana leaf. Other popular dishes include the super light Neer dosa, Bisi Bele Bhaat which is a lot like a khichdi, and chicken curry known as Korri Gassi. Coconut and fruits are a staple element of these dishes. A signature dish of South Karnataka is the kori rotti. It consists of a thin wafer-like rotti made from rice, dipped in chicken curry. This is the traditional dish of the Tuluvas.</p>
+        </div>
+        <br><br>
+        <div class="title">
+            <h1>Some Mouth Watering dishes of Karnataka</h1>
+        </div>
+
+        <div class="food-images">
+            <div class="gallery">
+                <a target="NeerDosaRecipe.html" href="NeerDosaRecipe.html">
+                    <img src="NeerDosa.jpg" alt="NeerDosa" width="600" height="400">
+                </a>
+                <div class="desc">Neer Dosa</div>
+            </div>
+
+            <div class="gallery">
+                <a target="MysorePak.html" href="MysorePak.html">
+                    <img src="mysore pak.webp" alt="MysorePak" width="600" height="400">
+                </a>
+                <div class="desc">Mysore Pak</div>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+</html>
